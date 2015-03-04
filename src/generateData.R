@@ -1,6 +1,0 @@
-temporal <- ceiling(runif(100000,min=1999,max=2015))
-positionx <- ceiling(runif(100000,min=0,max=1000))
-positiony <- ceiling(runif(100000,min=0,max=1000))
-spatialTemporalData <- cbind(positionx,positiony,temporal)
-write.table(spatialTemporalData,"SpatialTemporalData1.txt",row.names=F,col.names=F)
-rm(spatialTemporalData)
